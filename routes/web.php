@@ -13,15 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// aggiunta route specifica (inutilmente dato che laravel assume automaticamente che si 
-// stia lavorando con Blade [assurdo]) 
-
 // prima route diretta alla prima pagina
-Route::get('/welcome.blade.php', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
 // seconda route diretta alla second page
 Route::get('/second-page', function () {
     return view('secondPage');
-});
+})->name('second-page');
