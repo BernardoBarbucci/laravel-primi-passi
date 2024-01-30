@@ -22,6 +22,6 @@ Route::get('/welcome.blade.php', function () {
 });
 
 // seconda route diretta alla second page
-Route::get('/secondPage.blade.php', function () {
+Route::get('/second-page', function () {
     return view('secondPage');
 });

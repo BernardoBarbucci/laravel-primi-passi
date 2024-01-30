@@ -839,7 +839,7 @@
 
     <main>
         <section>
-            <p>Click <a href="{{ route('secondPage.blade.php') }}">here</a> in order to visit the second page.</p>
+            <p>Click <a href="{{ route('second-page') }}">here</a> in order to visit the second page.</p>
         </section>
     </main>
 </body>
