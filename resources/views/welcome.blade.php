@@ -5,14 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Laravel</title>
+    <title>First Page Laravel</title>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
     <!-- Styles -->
-    <style>
+    <!-- <style>
         /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
         *,
         ::after,
@@ -827,7 +827,7 @@
                 padding: 2rem
             }
         }
-    </style>
+    </style> -->
 </head>
 
 <body>
@@ -836,6 +836,12 @@
             Hello World!
         </h1>
     </header>
+
+    <main>
+        <section>
+            <p>Click <a href="{{ route('secondPage.blade.php') }}">here</a> in order to visit the second page.</p>
+        </section>
+    </main>
 </body>
 
 </html>
